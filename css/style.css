@@ -5,10 +5,11 @@ font-size: 16px;
 line-height: 1.5;
 font-family: "Roboto",sans-serif;
 letter-spacing: 0.5px;
+width: 100%;
 }
 .container{
 width: 100%;
-max-width: 1100px;
+max-width: 1200px;
 padding-left: 20px;
 padding-right: 20px;
 margin-left: auto;
@@ -39,6 +40,9 @@ box-sizing: border-box;
 	justify-content: flex-start;
 	align-items: center;
 }
+.contact li:last-child{
+	margin-left: 25px;
+}
 
 .contact-link ul{
 	display: flex;
@@ -46,7 +50,7 @@ box-sizing: border-box;
 	list-style: none;
 	margin-top: 9px;
 	margin-bottom: 8px;
-	margin-right: 100px;
+	margin-right: 50px;
 }
 /* header-logo-nav */
 .header-navigation{
@@ -149,3 +153,98 @@ box-sizing: border-box;
 	margin-right: 0px;
 } */
 /* end of main */
+
+/* start of footer */
+footer{
+	background-color: #474747;
+	height: 678px;
+	color: #fff;
+	/* display: flex; */
+}
+.footer{
+	display: flex;
+	margin: 20px 52px 5px;
+	align-items:flex-start;
+	margin-bottom:130px ;
+}
+.footer-logo{
+	margin-bottom: 30px;
+}
+.footer-p{
+	font-size: 16px;
+	margin-bottom: 30px;
+	color: #ADB29E;
+}
+.footer-contact-link ul{
+	display: flex;
+	justify-content:space-between;
+	margin-left: -40px;
+}
+.footer-contact-link li{
+	list-style:none ;
+}
+.footer2{
+	padding-left: 60px;
+	text-align: start;
+	align-items: start;
+}
+.footer2 li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+.footer2 a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #ADB29E;
+	font-size: 16px;
+
+}
+.footer2 h2{
+	text-transform: capitalize;
+	font-size: 16px;
+	margin-left: 35px;
+	margin-bottom: 40px;
+}
+.footer3{
+	padding-left: 60px;
+	text-align: start;
+	align-items: start;
+}
+.footer3 li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+.footer3 a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	color: #ADB29E;
+	font-size: 16px;
+
+}
+.footer3 h2{
+	text-transform: capitalize;
+	font-size: 16px;
+	margin-left: 35px;
+	margin-bottom: 40px;
+}
+.footer4{
+	padding-left: 70px;
+	text-align: start;
+	align-items: start;
+}
+.footer4 img{
+	padding: 10px;
+}
+footer span{
+	font-size: 16px;
+	color: #ADB29E;
+	display: flex;
+	justify-content: center;
+}
+.footer-hr{
+	color: #414536;
+	width: 1000px;
+	margin-bottom: 30px;
+}
