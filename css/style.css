@@ -6,6 +6,7 @@ line-height: 1.5;
 font-family: "Roboto",sans-serif;
 letter-spacing: 0.5px;
 width: 100%;
+
 }
 .container{
 width: 100%;
@@ -33,6 +34,11 @@ box-sizing: border-box;
 
 .contact{
 	color: #fff;
+}
+.contact a{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
 }
 .contact ul{
 	list-style: none;
@@ -247,4 +253,198 @@ footer span{
 	color: #414536;
 	width: 1000px;
 	margin-bottom: 30px;
+}
+
+
+
+
+/* css about */
+/* start of about section  */
+.about-section{
+	display:flex;
+	text-align: start;
+	justify-content: space-between;
+	margin-top: 25px;
+}
+.about-card{
+	position: relative;
+	background-color: #474747;
+	width: 411px;
+	height: 321px;
+	border-radius: 20px;
+	margin-left: 238px;
+	margin-top: -280px;
+	text-align:left;
+}
+.card-card{
+	padding:50px;
+	color: #fff;
+}
+.card-card ul{
+	padding-left: 0px;
+}
+.card-card img{
+	padding-right: 15px;
+}
+.card-card li{
+	list-style: none;
+	margin-bottom: 25px;
+}
+.card-card a{
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+}
+.about-content{
+width: 457px;
+height: 353px;
+margin-top: 71px;
+}
+.about-content p{
+	font-size: 18px;
+	line-height: 1x;
+}
+/* end of about section  */
+
+
+/* start of menu section header */
+.menu-header{
+margin: 85px 300px;
+}
+.menu-text{
+	width: 557px;
+	height: 172px;
+	display: inline	;
+	justify-content: center;
+	text-align: center;
+}
+.menu-text h1{
+	font-size: 60px;
+}
+.menu-text p{
+	font-size: 18px;
+}
+.menu-nav-btn ul{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding-left: 0px;
+	display: flex;
+	justify-content: center;
+}
+.menu-nav-btn li{
+	padding-right: 15px;
+}
+.about-btn{
+	color: #222;
+	font-weight: bold;
+	text-decoration: none;
+	border: 2px solid #474747;
+	border-radius: 118px;
+	width: 140px;
+	height: 48px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	transition: all 0.4s	ease;
+}
+.about-btn:hover{
+	background-color: #474747;
+	color: #ffffff;
+}
+.about-btn:active{
+	background-color: #AD343E;
+	color: #fff;
+}
+/* end of menu sektion header  */
+
+/* start of menu card  */
+.menu-card{
+	display: flex;
+	justify-content:center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.card1{
+	width: 260px;
+	height: 428px;
+	text-align: center;
+	margin: 10px;
+	border: 1px solid #DBDFD0;
+	border-radius: 12px;
+}
+.card1 h2{
+	color: #AD343E;
+}
+.card1 h3{
+	tab-size: 20px;
+	font-weight: bold;
+}
+.card1 p{
+	font-size: 16px;
+}
+/* end of menu card  */
+
+/* start of pages */
+.pages-text{
+	text-align: center;
+}
+.pages-text h1{
+	font-size: 70px;
+	margin-bottom: 0px;
+}
+.pages-text p{
+	font-size: 18px;
+}
+/* start of pages card  */
+.pages-card{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.pages-card-link{
+	width: 260px;
+	height: 340px;
+	margin: 15px;
+	border: 1px solid #474747;
+	border-radius: 18px;
+	text-align: start;
+}
+.pages-card-link p{
+	font-size: 14px;
+	color: #737865;
+	padding-left: 15px;
+}
+.pages-card-link h2{
+	font-size: 20px;
+	padding-left: 15px;
+}
+
+
+/* start of contact */
+.contact-section{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	margin: 0;
+}
+.contact-text{
+	text-align: center;
+	color: #474747;
+}
+.contact-text h1{
+	font-size: 70px;
+}
+.contact-text p{
+	font-size: 18px;
+	text-align: center;
+}
+.contact-card{
+	margin: 50px 400px;
+	width: 697px;
+	height: 488px;
+	border: 1px solid #474747;
+	box-shadow: 0 15px 15px 10px  rgba(0,0,0,0.3) ;
+	border-radius: 18px;
 }
