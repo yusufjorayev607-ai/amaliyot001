@@ -158,6 +158,38 @@ box-sizing: border-box;
 /* .btn-menu li:last-child{
 	margin-right: 0px;
 } */
+
+.Browse-Our-Menu-thema{
+	text-align: center;
+	font-size: 40px;
+}
+.browse-our-menu{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.browse-our-menu-card{
+	width: 306px;
+	height: 375px;
+	border: 1px solid #474747;
+	border-radius: 16px;
+	margin: 20px;
+}
+.browse-our-menu-card img{
+	padding-top: 55px;
+	border: 0px solid #474747;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 25px;
+	background-color: #4949493d;
+	color: #fff;
+}
+.browse-our-menu-card a{
+	text-decoration: none;
+	color: #AD343E;
+	font-weight: bold;
+}
 /* end of main */
 
 /* start of footer */
@@ -385,6 +417,23 @@ margin: 85px 300px;
 	font-size: 16px;
 }
 /* end of menu card  */
+/* menu logo  */
+.menu-section-logo{
+	width: 1010px;
+	height: 350px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 90px;
+}
+.menu-section-logo-logo{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+}
+.menu-section-logo2 img{
+	padding-left: 50px;
+}
 
 /* start of pages */
 .pages-text{
@@ -534,4 +583,129 @@ border-radius: 30px;
 }
 .contact-info p{
 	font-size: 18px;
+}
+
+/* pages menu  */
+.blog-pages-option{
+	background-color: #F9F9F7;
+
+}
+.blog-pages{
+text-align: left;
+padding:30px;
+
+}
+.blog-pages h1{
+	text-align: center;
+	font-size: 60px;
+}
+
+.blog-pages-menu-card{
+	display: flex;
+	justify-content: space-between;
+}
+.pages-card-link-blog{
+	width: 252px;
+	border: 1px solid #474747;
+	border-radius: 15px;
+}
+.pages-card-link-blog h2{
+	padding: 15px;
+	padding-top: 0px;
+}
+.pages-card-link-blog p{
+	padding: 15px;
+	padding-bottom: 0;
+}
+.blog-pages-menu-thema p {
+	text-align: center;
+}
+.blog-pages-menu{
+	background-color: #fff;
+}
+
+/* book-a-table */
+.book-a-table-thema{
+	text-align: center;
+}
+.book-a-table-card1{
+	display: flex;
+	justify-content: center;
+	margin-bottom: -150px;
+	position: relative;
+}
+.book-a-table-card{
+	width: 597px;
+	height: 450px;
+	border: 1px solid #474747;
+	box-shadow: 0 15px 15px 10px  rgba(0,0,0,0.3) ;
+	border-radius: 18px;
+	padding:30px ;
+	background-color: #fff;
+}
+.book-a-table-card-info{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 15px;
+}
+.book-a-table-card-name{
+	color: #222;
+}
+.book-a-table-card-email{
+	color: #222;
+}
+.book-a-table-card-info input{
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+}
+.book-a-table-card-info label{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0px;
+}
+.book-a-table-card-subject input{
+width: 517px;
+height: 50px;
+border-radius: 30px;
+}
+.book-a-table-card-subject{
+	color: #222;
+}
+.book-a-table-card-subject label{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0px;
+}
+.book-a-table-card-message label{
+	color: #222;
+	display: flex;
+	justify-content: space-between;
+	padding:5px 0px;
+}
+.book-a-table-card-message input{
+	width: 517px;
+	height: 90px;
+	border-radius: 30px;
+}
+.book-a-table-btn a{
+	color: #222;
+	text-decoration: none;
+}
+.book-a-table-btn{
+	width: 517px;
+	height: 54px;
+	border: 0 solid #474747;
+	border-radius: 30px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	margin: 30px 0px;
+	transition: all 0.4s	ease;
+}
+.book-a-table-btn:hover{
+	background-color: #AD343E;
+	color: #fff;
 }
