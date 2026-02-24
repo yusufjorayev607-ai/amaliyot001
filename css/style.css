@@ -190,7 +190,176 @@ box-sizing: border-box;
 	color: #AD343E;
 	font-weight: bold;
 }
+
+.home3-section{
+	display:flex;
+	text-align: start;
+	justify-content: space-between;
+	margin-top: 25px;
+	background-color: #F9F9F7;
+}
+.home3-card{
+	position: relative;
+	background-color: #474747;
+	width: 411px;
+	height: 321px;
+	border-radius: 20px;
+	margin-left: 238px;
+	margin-top: -280px;
+	text-align:left;
+}
+.home3-card-card{
+	padding:50px;
+	color: #fff;
+}
+.home3-card-card ul{
+	padding-left: 0px;
+}
+.home3-card-card img{
+	padding-right: 15px;
+}
+.home3-card-card li{
+	list-style: none;
+	margin-bottom: 25px;
+}
+.home3-card-card a{
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+}
+.home3-content{
+width: 457px;
+height: 353px;
+margin-top: 71px;
+}
+.home3-content p{
+	font-size: 18px;
+	line-height: 1x;
+}
+
+/* services */
+.services-thema{
+	font-size: 25px;
+}
+.services-section{
+	display: flex;
+	justify-content: space-between;
+}
+.services-card{
+	display: flex;
+	justify-content: space-between;
+}
+.card-services{
+	width: 252px;
+	height: 450px;
+	margin: 15px;
+	border: 1px solid #efeeeeac;
+	border-radius: 14px;
+}
+.card-services h2{
+	padding-left: 15px;
+}
+.card-services p{
+	padding-left: 15px;
+}
+/* fastest-food */
+
 /* end of main */
+.fastest-food-section{
+	display: flex;
+	justify-content: space-between;
+	padding: 114px 102px 0px 102px;
+	background-color: #F9F9F7;
+}
+.fastest-food-img2{
+	padding: 35px 25px;
+	padding-right: 0px;
+}
+.fastest-food-info{
+	width: 400px;
+	height: 300px;
+	margin-top:100px;
+	text-align: left;
+}
+.fastest-food-info ul{
+	padding: 0px;
+}
+.fastest-food-info li{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	margin: 10px 0px
+}
+.fastest-food-info span{
+	padding-left: 10px;
+}
+/* What Our Customers Say */
+.What-Our-Customers-Say-card{
+	display: flex;
+	justify-content: space-between;
+}
+.card-What-Our-Customers-Say{
+	width: 350px;
+	height: 400px;
+	background-color: #47474734;
+	border-radius: 15px;
+}
+.card-What-Our-Customers-Say h2{
+	margin: 25px;
+	color: #AD343E;
+}
+.card-What-Our-Customers-Say p{
+	margin: 25px;
+}
+.card-What-Our-Customers-Say-img{
+	display: flex;
+	justify-content: start;
+	padding-left: 15px;
+	padding-top: 50px;
+}
+span{
+	margin: 0px;
+	font-size: 16px;
+	color: #372a2a
+}
+.card-What-Our-Customers-Say-img h3{
+	padding-left: 25px;
+}
+/* Our Blog & Articles */
+
+.Our-Blog-Articles-section{
+	background-color: #F9F9F7;
+}
+
+.Our-Blog-Articles-thema{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+}
+
+.Our-Blog-Articles-thema h1{
+	font-size: 55px;
+}
+.Our-Blog-Articles-card{
+	width: 460px;
+	height: 798px;
+	background-color: #fff;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 15px;
+}
+.Our-Blog-Articles-1card{
+	display: flex;
+}
+.Our-Blog-Articles-card-of-card4{
+	width: 290px;
+	height: 390px;
+	background-color:#fff;
+	padding: 5px;
+	margin: 15px;
+	border-radius: 15px;
+}
 
 /* start of footer */
 footer{
